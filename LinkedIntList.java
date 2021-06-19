@@ -117,6 +117,9 @@ public class LinkedIntList {
         if(x == (listSize - 1)){
             sorted = true;
         }
+        else if(x == 0){
+            sorted = true;
+        }
         else{
             sorted = false;
         }
